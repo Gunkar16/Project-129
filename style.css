@@ -1,0 +1,137 @@
+.heading{
+    background-color:#ad00ff;
+    width:25%;
+    top:0;
+    margin:0px;
+    height:60px;
+    font-size: 30px;
+    font-family: cursive;
+    animation-name:colorGif;
+    animation-duration:1.25s;
+    animation-iteration-count: infinite;
+    margin:20px;
+}
+
+@keyframes colorGif{
+    0%{
+        margin-right:200px;
+    }
+    5%{
+        margin-left: 20px;
+    }
+    10%{
+        margin-left: 40px;
+    }
+    15%{
+        margin-left: 60px;
+    }
+    20%{
+        margin-left: 80px;
+    }
+    25%{
+        background-color: #ad00ff;
+        margin-left: 100px;
+    }
+    30%{
+        margin-left: 120px;
+    }
+    35%{
+        margin-left: 140px;
+    }
+    40%{
+        margin-left: 160px;
+    }
+    45%{
+        margin-left: 180px;
+    }
+    50%{
+        margin-left:200px;
+        background-color: #01c4fe;
+    }
+    55%{
+        margin-right: 20px;
+    }
+    60%{
+        margin-right: 40px;
+    }
+    65%{
+        margin-right: 60px;
+    }
+    70%{
+        margin-right: 80px;
+    }
+    75%{
+        margin-right: 100px;
+        background-color: #52ef02;
+    }
+    80%{
+        margin-right: 120px;
+    }
+    85%{
+        margin-right: 140px;
+    }
+    90%{
+        margin-right: 160px;
+    }
+    95%{
+        margin-right: 180px;
+    }
+    100%{
+        background-color: #fe8800;
+        margin-right: 200px;
+    }
+
+}
+#song{
+    color:white;
+    font-family: 'Staatliches', cursive;
+}
+
+.note{
+    margin-top:15px ;
+    float: right;
+    width: 420px;
+    color: white;
+    font-size: 15px;
+    border-radius: 0ch;
+    border-top: solid 3px white;
+    border-left: solid 3px white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.div_speed{
+    float: left;
+}
+.div_speed_img,.div_volume_img{
+    width:200px;
+    border-radius: 100px;
+}
+.div_volume{
+    float:right;
+}
+#speed,#volume{
+    font-size: 20px;
+    margin:15px;
+}
+#play{
+    width:130px;
+    height: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#play:focus{
+    outline: none;
+}
+#play:hover{
+    background-image:linear-gradient(to right ,rgb(43, 255, 0),rgb(0, 229, 255),rgb(156, 8, 149),red);
+    color:white;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+
+body{
+    background-size:cover;
+    background-image: url("5.gif");
+}
