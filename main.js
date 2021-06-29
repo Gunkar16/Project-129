@@ -13,12 +13,12 @@ StatusSong = "";
 
 function preload(){
     song1 = loadSound("Sorry_By_Alan_Walker.mp3");
-    song2 = loadSound("Tones-and-I-Dance-Monkey.mp3");
+    song2= loadSound("Tones-and-I-Dance-Monkey.mp3");
 }
 
 function setup(){
-    Canvas = createCanvas(1000,500);
-    Canvas.position(0,170);
+    Canvas = createCanvas(350,250);
+    Canvas.position(580,250);
     Video = createCapture(VIDEO);
     Video.hide();
 
@@ -40,12 +40,11 @@ function gotPoses(results){
 
         rightWristX = results[0].pose.rightWrist.x;
         rightWristY = results[0].pose.rightWrist.y;
-
     }
 }
 
 function draw(){
-    image(Video,20,100,320,230);
+    image(Video,0,0,350,250);
     fill('orange');
     stroke('orange');
     SongStatus = song1.isPlaying()
